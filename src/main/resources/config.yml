@@ -1,0 +1,45 @@
+## 联系qq2260483272
+Setting:
+  ##开发者调试模式,设置为false即可
+  debug: false
+  ##到达限购数，ID是否变为屏障
+  limi-barrier: true
+##Mysql连接配置...
+mysql:
+  url: 'jdbc:mysql://localhost:3306/test0'
+  user: 'root'
+  password: 'admin'
+##会员权限加速百分比
+##例如 mmshop.speed.vip
+vip-speed:
+  vip: 0.2
+  svip: 0.7
+info:
+  buy:
+    lore:
+      - '&8&l&m &f&l&m          &8&l&m '
+      - '&e商品类型 - &c&n出售'
+      - '&e商品价格 - &3&l@vaul@ @type@'
+      - ''
+      - '&f&n商品限购 @limi@ 个'
+  sell:
+    lore:
+      - '&8&l&m &f&l&m          &8&l&m '
+      - '&e商品类型 - &e&n收购'
+      - '&e商品价格 - &3&l@vaul@ @type@'
+      - ''
+      - '&f&n商品限回收 @limi@ 个'
+items:
+  flag:
+    ID: STAINED_GLASS_PANE
+    data: 0
+    name: '&c丰收物语'
+  info:
+    ID: STAINED_GLASS_PANE
+    data: 6
+    name: '&6&n信息'
+    lore:
+      - '&8&l&m &f&l&m          &8&l&m '
+      - '&f距离下次刷新还有 @time@ 分钟'
+      - '&fVIP会员享有&a不同等级的加速权益'
+      - '&8&l&m &f&l&m          &8&l&m '

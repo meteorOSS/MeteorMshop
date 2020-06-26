@@ -1,0 +1,7 @@
+name: MeteorMshop
+version: 2.0
+main: com.meteor.meteormshop.MeteorMshop
+authors: [meteor]
+depend: [PlayerPoints,Vault]
+commands:
+  mmshop:

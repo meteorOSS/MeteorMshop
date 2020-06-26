@@ -1,0 +1,8 @@
+prefix: '&f[ &a丰收物语 &f]'
+no-vaul: '@prefix@ &7没有足够的金币或点卷来购买这件商品'
+limit: '@prefix@ &7你已到达购买限制(@limi@/@maxlimi@),请等待神秘商店刷新'
+no-ref: '@prefix@ &7刷新冷却中,再点你妈死了'
+ref-shop: '@prefix@ &7已刷新神秘商店,快看看有什么好东西吧！'
+buy-item: '@prefix@ &7已成功购买物品,请注意查收'
+sell-item-sur: '@prefix@ &7成功出售物品,获得@money@@type@'
+sell-item-no: '@prefix@ &7你没有足够的物品!'
